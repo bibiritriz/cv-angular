@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class CvComponent {
   nome_sobrenome = "Beatriz Camargo";
   email = "beatrizcamargo@gmail.com";
-  telefone = "11 9156567243";
-  endereco = "Rua Não Sei Onde, Bairro Barroso, 873";
-  linkedin = "https://www.linkedin.com/";
+  telefone = "(11) 99999-9999";
+  endereco = "Rua dos girassóis 555, 41444-555 Curitiba";
+  linkedin = "https://www.linkedin.com/in/beatrizcammargo/";
+  crea = "PR-143251/D"
 }

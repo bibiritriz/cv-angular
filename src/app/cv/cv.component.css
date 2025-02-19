@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.cv-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  height: 100vh;
+  background-color: #F2EFC2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cv-layout{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 0rem 2rem;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-y: hidden;
+}
+
+.cv-header{
+  margin: 0rem 1rem;
+  padding: 1rem;
+}
+
+.cv-header-title{
+  color: #0D0D0D;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.cv-header-subtitle{
+  color: #472A16;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.cv-line{
+  margin: 10px 0;
+  border: 0.5px solid #472A16;
+}
+
+.cv-side-bar-personal-information{
+  display: flex;
+  flex-direction: column;
+  background-color: #A69C6D;
+  padding: 1.4rem;
+  width: 80%;
+  height: 95%;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cv-side-bar-personal-information-title{
+  color: #0D0D0D;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.cv-side-bar-personal-information-subtitle{
+  color: #0D0D0D;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.cv-side-bar-personal-information-text{
+  margin-bottom: 0.6rem;
+}
+
+.cv-side-bar-personal-information-link{
+  color: #0D0D0D;
+  text-decoration: none;
+  transition: color 0.5 ease;
+}
+
+a:hover {
+  color: #472A16;
+}
