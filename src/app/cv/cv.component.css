@@ -50,7 +50,7 @@
   flex-direction: column;
   background-color: #A69C6D;
   padding: 1.4rem;
-  width: 100%;
+  width: 35%;
   height: 95%;
 }
 
@@ -63,7 +63,7 @@ img{
 .cv-side-bar-personal-information-title{
   color: #0D0D0D;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-top: 0.5rem;
 }
 
@@ -73,18 +73,25 @@ img{
   margin-top: 0.4rem;
 }
 
+.cv-side-bar-personal-information-linkedin{
+  margin-top: 2px;
+  &:hover{
+    a{
+      color: #8B6236;
+    }
+  }
+}
+
 .cv-side-bar-personal-information-text{
+  margin-top: 0.2rem;
   margin-bottom: 0.6rem;
 }
 
 .cv-side-bar-personal-information-link{
-  color: #472A16;
+  color: #0D0D0D;
   text-decoration: none;
-  transition: color 0.5 ease;
-}
-
-a:hover {
-  color: #8B6236;
+  margin-top: 10px;
+  transition: color .5s ease;
 }
 
 .cv-content{
@@ -92,6 +99,7 @@ a:hover {
   flex-direction: column;
   gap: 10px;
   margin-left: 1rem;
+  width: 70%;
 }
 
 .cv-content-resume{
@@ -99,12 +107,12 @@ a:hover {
   flex-direction: column;
   gap: 5px;
   p{
-    margin-bottom: 5px;
+    text-align: justify;
   }
 }
 
 .cv-content-title{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #0D0D0D;
   font-weight: 600;
 }
@@ -141,4 +149,57 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 3px;
+}
+
+.cv-content-education{
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  strong{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  li{
+    margin-bottom: 5px;
+  }
+  p{
+    margin-top: 5px;
+    color: #8B6236;
+  }
+}
+
+.cv-content-skills{
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  li{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+}
+
+.cv-content-skills-range{
+  display: flex;
+  justify-content: column;
+  gap: 4px;
+}
+
+.cv-content-skills-range-ball{
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+}
+
+.full{
+  background-color: #0D0D0D;
+}
+
+.empty {
+  background-color: #584e4ea8;
 }
