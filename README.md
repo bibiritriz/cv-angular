@@ -1,27 +1,61 @@
-# CvAngular
+# Projeto de Currículo com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+Este projeto consiste em uma aplicação Angular criada com a opção `--no-standalone`, contendo um componente chamado `CV`, que exibe um currículo estilizado com informações básicas. O objetivo é praticar a criação e a estilização de componentes no Angular.
 
-## Development server
+## 📋 Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Exibição de informações pessoais e profissionais em um formato de currículo.
+- Estilização personalizada para tornar o currículo visualmente agradável.
+- Estrutura organizada para facilitar a manutenção e atualização dos dados.
 
-## Code scaffolding
+## 🛠 Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework utilizado para a construção da aplicação.
+- **HTML e CSS**: Utilizados para estruturar e estilizar o conteúdo do currículo.
 
-## Build
+## 🚀 Como Executar o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/bibiritriz/cv-angular.git
+   ```
+2. Acesse o diretório do projeto:
+    ```bash
+    cd cv-angular
+    ```
+3. Instale as dependências:
+   ```bash
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng s -o
+   ```
+## 📝 Conteúdo do Currículo
 
-## Running unit tests
+O componente `CV` exibe as seguintes informações:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 📛 Nome Completo  
+[Seu Nome]
 
-## Running end-to-end tests
+### 🧑‍💼 Perfil profissional  
+Breve descrição das suas habilidades e experiências, com foco nas suas competências técnicas e comportamentais.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 💼 Experiência Profissional  
+- **Cargo Atual/Recente** - Nome da Empresa (Ano de início - Ano de término)  
+  Descrição das atividades e realizações no cargo.
 
-## Further help
+- **Cargo Anterior** - Nome da Empresa (Ano de início - Ano de término)  
+  Descrição das atividades e realizações no cargo.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### 🎓 Educação  
+- **Curso Superior** - Nome da Instituição (Ano de início - Ano de término)
+
+- **Cursos Complementares**  
+  - Curso 1 - Nome da Instituição  
+  - Curso 2 - Nome da Instituição
+  
+### 🛠 Competências  
+- **Ferramentas**: Ferramentas com as quais tem experiência.
+- **Habilidades Pessoais**: Habilidades interpessoais que contribuem para a dinâmica de trabalho.
+
